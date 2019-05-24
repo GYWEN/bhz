@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/bhz.iml" filepath="$PROJECT_DIR$/.idea/bhz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bhzcommon/bhzcommon.iml" filepath="$PROJECT_DIR$/bhzcommon/bhzcommon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bhzparent/bhzparent.iml" filepath="$PROJECT_DIR$/bhzparent/bhzparent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bhzsys/bhzsys.iml" filepath="$PROJECT_DIR$/bhzsys/bhzsys.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="bhzsys:war">
+    <output-path>$PROJECT_DIR$/bhzsys/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>bhzsys</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="bhz-parent.war">
+      <element id="artifact" artifact-name="bhzsys:war exploded" />
+    </root>
+  </artifact>
+</component>
