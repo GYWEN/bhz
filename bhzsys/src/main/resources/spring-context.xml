@@ -25,25 +25,17 @@
         <property name="maximumActiveTime" value="${jdbc.maxActiveTime}" />
         <property name="prototypeCount" value="${jdbc.prototypeCount}" />
     </bean>
-
     <!-- 配置事务管理器 -->
     <bean id="transactionManager"
           class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
         <property name="dataSource" ref="dataSource" />
     </bean>
-
     <!-- 注解方式配置事物 -->
     <tx:annotation-driven transaction-manager="transactionManager" />
-
     <!-- 注解解析 -->
     <context:annotation-config />
-
     <!-- 扫描所有spring bean注解 -->
     <context:component-scan base-package="bhz" />
-
     <!-- 动态代理 -->
     <aop:aspectj-autoproxy/>
-
-
-
 </beans>

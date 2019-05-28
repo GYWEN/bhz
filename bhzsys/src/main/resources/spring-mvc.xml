@@ -16,4 +16,13 @@
     <!-- spring 扫描所有bhz.sys.web下文件 -->
     <context:component-scan base-package="bhz" />
 
+    <!-- spring view过滤  -->
+    <bean id="pageResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="viewClass" value="org.springframework.web.servlet.view.JstlView" />
+        <property name="prefix" value="/WEB-INF/pages/" />
+        <property name="suffix" value=".jsp" />
+        <property name="order" value="1" />
+    </bean>
+
+    <!--  RPC框架将繁琐的通信过程和唤起调用服务都包装好了，方便开发人员直接调用  -->
 </beans>
