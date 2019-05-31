@@ -2,6 +2,7 @@
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/bhzsys" />
+    <file type="web" url="file://$PROJECT_DIR$/bhzsysservice" />
   </component>
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
@@ -9,9 +10,9 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/bhzparent/pom.xml" />
-        <option value="$PROJECT_DIR$/bhzcommon/pom.xml" />
-        <option value="$PROJECT_DIR$/bhzsys/pom.xml" />
+        <option value="$PROJECT_DIR$/bhz-sys-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/bhz-sys-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/bhz-sys-facade/pom.xml" />
       </list>
     </option>
   </component>
